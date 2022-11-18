@@ -1,0 +1,109 @@
+body{
+    background-image: url(./images/homepagebackground.jpeg);
+    background-size: fit;
+    width: 100%;
+    width: 100%;
+}
+.head{
+    background-image: url(./images/headderbanner.jpg);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(233, 231, 234);
+    border: 3px solid gray;
+    border-radius: 25px;
+    width: 60rem;
+    height: 5rem;
+    margin: 3rem 15% 2% 15%;
+}
+.logo{
+    clip-path: circle();
+    width: 70px;
+    margin-left: 15px;
+}
+#language{
+    position: relative;
+    left: 90%;
+    top: -80%
+    padding: 20px;
+}
+#btn button{
+    margin-top: 15px ;
+    border: 1px solid rgb(48, 44, 44);
+    width:150px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(BURGER.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#options{
+    border: 1px solid rgb(48, 44, 44);       
+    display: flex;
+    flex-direction: row;
+    margin: 40rem 5rem 15% 15%;
+}
+#btn{
+     border: 2px solid black;
+    height: 160px;
+    /* width: 500px; */
+    padding:.5rem;
+    background-image: url(./images/homes.jfif);
+    background-size: cover;
+}
+#btn h3{
+    margin:10px 25px;
+}
+#btn h3 a{
+    color: orange;
+    text-decoration: none;
+    /* background-color: white; */
+}
+#container{
+    /* width: 250px;
+    height: 50%; */
+    /* border: 1px solid rgb(48, 44, 44); */
+
+    margin: 0 220px;
+    display: flex;
+    padding:2rem;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0px 18%;
+}
+#foot{
+    margin: 80 190px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0px 18%;
+}
+button{
+    margin-top: 15px ;
+    border: 1px solid rgb(48, 44, 44);
+    width:200px;
+    height: 60px;
+    margin: 0 10px;
+    border-radius: 10px;
+    /* background-image: url(BURGER.jpg); */
+
+}
+#foot button a{
+    color: black;
+    text-decoration: none;
+}
+.card{
+    width: 45%;
+    height: 100%;
+    flex: 1 0 -10em;
+    margin:  25% 10%;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+/* #takeout{
+    background-image: url(./images/homes.jfif);
+}
+#dinein{
+    background-image: url(./images/here.jfif);
+} */
